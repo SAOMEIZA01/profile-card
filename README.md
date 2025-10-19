@@ -6,7 +6,7 @@ A clean, accessible, and fully responsive **Profile Card** built using **HTML**,
 ---
 
 ### 🌍 Live Demo  
-🔗 View Project: https://saomeiza01/github.io/profile-card
+🔗 View Project: [https://saomeiza01/github.io/profile-card](https://saomeiza01.github.io/profile-card/)
 
 ### 💾 Repository  
 📦 GitHub Repo: https://github.com/saomeiza01/profile-card
