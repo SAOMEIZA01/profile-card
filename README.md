@@ -40,5 +40,4 @@ profile-card/
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
- └── profile_img.jpg
+├── profile_img.jpg
