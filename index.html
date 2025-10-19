@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card | HNG13 Stage 0</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <article data-testid="test-profile-card" class="profile-card">
+            <figure class="profile-avatar">
+                <img src="./assets/profile_img.jpg" alt="Profile picture of Abdulrazaq Omeiza"
+                    data-testid="test-user-avatar" />
+            </figure>
+
+            <div class="profile-content">
+                <header>
+                    <h2 data-testid="test-user-name">Abdulrazaq Omeiza</h2>
+                </header>
+
+                <p data-testid="test-user-bio">
+                    A passionate frontend developer and HNG13 intern focused on building clean, accessible, and
+                    responsive user interfaces.
+                </p>
+
+                <p class="time">
+                    Current Time (ms):
+                    <span data-testid="test-user-time" id="time"></span>
+                </p>
+
+                <nav data-testid="test-user-social-links" class="social-links">
+                    <ul>
+                        <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-twitter">Twitter</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-github">GitHub</a></li>
+                        <li><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin">LinkedIn</a></li>
+                    </ul>
+                </nav>
+
+                <section data-testid="test-user-hobbies" class="hobbies">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Designing</li>
+                        <li>Reading</li>
+                    </ul>
+                </section>
+
+                <section data-testid="test-user-dislikes" class="dislikes">
+                    <h3>Dislikes</h3>
+                    <ul>
+                        <li>Procrastination</li>
+                        <li>Messy code</li>
+                        <li>Slow internet</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
