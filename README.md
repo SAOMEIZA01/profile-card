@@ -9,7 +9,7 @@ A clean, accessible, and fully responsive **Profile Card** built using **HTML**,
 🔗 View Project: [https://saomeiza01/github.io/profile-card](https://saomeiza01.github.io/profile-card/)
 
 ### 💾 Repository  
-📦 GitHub Repo: https://github.com/saomeiza01/profile-card
+📦 GitHub Repo: https://github.com/SAOMEIZA01/profile-card
 
 ---
 
